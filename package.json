@@ -1,0 +1,31 @@
+{
+  "name": "19_insta_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohye-lee/moments_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohye-lee/moments_backend/issues"
+  },
+  "homepage": "https://github.com/sohye-lee/moments_backend#readme",
+  "dependencies": {
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@prisma/cli": "^2.19.0",
+    "apollo-server": "^2.21.1",
+    "nodemon": "^2.0.7"
+  }
+}
